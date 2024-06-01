@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+#main{
+    background-image: url(./101310609.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eid{
+    font-family: "Alkalami", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64pt;
+    color: antiquewhite;
+}
+.countdown-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 600px; 
+}
+
+.countdown-clock {
+    display: flex;
+    justify-content: space-between;
+    font-size: 100px; 
+    font-weight: bold;
+    margin-top: 100px;
+}
+.countdown-text {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px; 
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(8, 231, 231);
+    
+}
+
+.countdown-clock div {
+    padding: 10px;
+    border: 5px solid #e0b9b9;
+    border-radius: 5px;
+    color: rgb(221, 245, 245);
+}
+
+#message {
+    font-style: italic;
+    margin-top: 20px;
+}
+
